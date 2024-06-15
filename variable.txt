@@ -1,0 +1,82 @@
+- เวลา -
+{hour:1} - ชั่วโมง | รูปแบบ 24 ชั่วโมง | 00 - 23
+{hour:2} - ชั่วโมง | รูปแบบ 12 ชั่วโมง | 00 - 12
+{min:1} - นาที | รูปแบบ 24 ชั่วโมง | 00 - 59
+{min:2} - นาที | รูปแบบ 24 ชั่วโมง | 00 - 59 AM หรือ 00 - 59 PM
+
+- วันเดือนปี (TH) -
+{th=date} - วันที่ | 1 - 31
+{th=week:1} - ชื่อวันแบบย่อ | จ. - อา.
+{th=week:2} - ชื่อวันแบบเต็ม | จันทร์ - อาทิตย์
+{th=month:1} - เดือนแบบเลข | 1 - 12
+{th=month:2} - เดือนแบบย่อ | ม.ค. - ธ.ค.
+{th=month:3} - เดือนแบบเต็ม | มกราคม - ธันวาคม
+{th=year:1} - ปีแบบย่อ | 67
+{th=year:2} - ปีแบบเต็ม | 2567
+
+- วันเดือนปี (EN) -
+{en=date} - วันที่ | 1st - 31st
+{en=week:1} - ชื่อวันแบบย่อ | Mon - Sun
+{en=week:2} - ชื่อวันแบบเต็ม | Monday - Sunday
+{en=month:1} - เดือนแบบเลข | 1 - 12
+{en=month:2} - เดือนแบบย่อ | Jan - Dec
+{en=month:3} - เดือนแบบเต็ม | January - December
+{en=year:1} - ปีแบบย่อ | 24
+{en=year:2} - ปีแบบเต็ม | 2024
+
+- สภาพอากาศ - ( https://www.weatherapi.com/weather )
+{city} - เมือง | Mae Sai
+{region} - จังหวัด | Chiang Rai
+{country} - ประเทศ | Thailand
+{temp:c} - อุณหภูมิ | หน่วย celcius °C | 29
+{temp:f} - อุณหภูมิ | หน่วย fahrenheit °F | 84.2
+{wind:kph} - ความเร็วลม | หน่วย kilometer per hour | 3.6
+{wind:mph} - ความเร็วลม | หน่วย miles per hour | 2.2
+{wind:degree} - ทิศทางลม | หน่วย องศา ° | 160
+{wind:dir} - ทิศทางลม | เป็นเข็มทิศ 16 จุด | SSE 
+{pressure:mb} - ความกดอากาศ | หน่วย millibar mbar | 1007
+{pressure:in} - ความกดอากาศ | หน่วย inches of mercury inHg | 29.74
+{precip:mm} - ปริมาณน้ำฝน | หน่วย millimeter mm | 3.65
+{precip:in} - ปริมาณน้ำฝน | หน่วย inches in | 0.14
+{gust:kph} - ลมกระโชก | หน่วย kilometer per hour | 10.6
+{gust:mph} - ลมกระโชก | หน่วย miles per hour | 6.6
+{vis:km} - ทัศนวิสัย | หน่วย kilometer | 4.5
+{vis:mi} - ทัศนวิสัย | หน่วย miles | 2.0
+{humidity} - ความชื้น | หน่วย percentage % | 52
+{cloud} - เมฆ | หน่วย percentage % | 0
+{uv} - ค่า UV | หน่วย Index | 1
+{pm2.5} - ค่าฝุ่น PM 2.5 | หน่วย μg/m3 | 55.5
+
+- ระบบ -
+{ping} - ค่าปิง | หน่วย ms | 99
+{patch} - แสดง PATCH | 7.0.0
+{cpu:name} - ชื่อของ CPU | Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+{cpu:cores} - คอร์ของ CPU | 4
+{cpu:speed} - ความเร็วของ CPU | หน่วย GHz | 2.0
+{cpu:usage} - การทำงานของ CPU | หน่วย percentage % | 99
+{ram:usage} - การทำงานของ RAM | หน่วย percentage % | 99
+{uptime:days} - เวลาทำงาน | หน่วย วัน | 1
+{uptime:hours} - เวลาทำงาน | หน่วย ชั่วโมง | 20
+{uptime:minutes} - เวลาทำงาน | หน่วย นาที | 57
+{uptime:seconds} - เวลาทำงาน | หน่วย วินาที | 58
+
+- ผู้ใช้ -
+{user:name} - ชื่อผู้ใช้ | lbhdcpn
+{user:icon} - รูปผู้ใช้ | ได้เป็น URL ( ใช้ไม่ได้ใน สถานะขยับ )
+{user:banner} - แบนเนอร์ผู้ใช้ | ได้เป็น URL ( ใช้ไม่ได้ใน สถานะขยับ )
+{guild=members:<GUILD ID>} - จำนวนสมาชิกในเซิร์ฟเวอร์ | 251
+{guild=name:<GUILD ID>} - ชื่อเซิร์ฟเวอร์ | 𝐋𝐎𝐘𝐁𝐔𝐍𝐆 𝐀𝐋𝐋
+{guild=icon:<GUILD ID>} - รูปเซิร์ฟเวอร์ | ได้เป็น URL ( ใช้ไม่ได้ใน สถานะขยับ )
+
+- อิโมจิ -
+{emoji:random} - emoji แบบสุ่ม
+{emoji:time} - emoji เวลาเช้ามืดตามเวลา | ☀️ , 🌙
+{emoji:clock} - emoji นาฬิกาตามเวลา | 🕖
+
+- ฟอนต์ตัวเลข -
+{NF1(<NUMBER>)} - ๐๑๒๓๔๕๖๗๘๙
+{NF2(<NUMBER>)} - 𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡
+{NF3(<NUMBER>)} - 𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵
+{NF4(<NUMBER>)} - 𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗
+{NF5(<NUMBER>)} - 𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿
+{NF6(<NUMBER>)} - 𝟢𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫
