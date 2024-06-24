@@ -73,10 +73,10 @@
 {emoji:time} - emoji เวลาเช้ามืดตามเวลา | ☀️ , 🌙
 {emoji:clock} - emoji นาฬิกาตามเวลา | 🕖
 
-- ฟอนต์ตัวเลข -
-{NF1(<NUMBER>)} - ๐๑๒๓๔๕๖๗๘๙
-{NF2(<NUMBER>)} - 𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡
-{NF3(<NUMBER>)} - 𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵
-{NF4(<NUMBER>)} - 𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗
-{NF5(<NUMBER>)} - 𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿
-{NF6(<NUMBER>)} - 𝟢𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫
+- ฟอนต์ตัวหนังสือ -
+{NF1(<TEXT>)} - ๐-๙ ( Number only )
+{NF2(<TEXT>)} - 𝕒-𝕫 𝔸-ℤ 𝟘-𝟡
+{NF3(<TEXT>)} - 𝗮-𝘇 𝗔-𝗭 𝟬-𝟵
+{NF4(<TEXT>)} - 𝐚-𝐳 𝐀-𝐙 𝟎-𝟗
+{NF5(<TEXT>)} - 𝟶-𝟿 ( Number only )
+{NF6(<TEXT>)} - 𝟢-𝟫 ( Number only )
